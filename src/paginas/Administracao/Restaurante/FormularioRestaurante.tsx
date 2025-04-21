@@ -1,6 +1,7 @@
 import { Button, TextField } from "@mui/material";
 import axios from "axios";
 import { useState } from "react";
+import { Form } from "react-router-dom";
 
 const FormularioRestaurante = () => {
   const [nomeRestaurante, setNomeRestaurante] = useState("");
@@ -17,7 +18,7 @@ const FormularioRestaurante = () => {
   };
 
   return (
-    <form onSubmit={aoSubmeterForm}>
+    <Form onSubmit={aoSubmeterForm}>
       <TextField
         value={nomeRestaurante}
         onChange={(evento) => setNomeRestaurante(evento.target.value)}
@@ -25,7 +26,7 @@ const FormularioRestaurante = () => {
         variant="standard"
       />
       <Button type="submit" variant="outlined">Salvar</Button>
-    </form>
+    </Form>
   );
 };
 
