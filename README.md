@@ -1,33 +1,39 @@
 ![Integrando seu projeto React com APIs](thumbnail.png)
 
-# Alfood
+# 🍽️ Alfood
 
-O Alfood é um site que lista restaurantes e pratos do menu. 
-É um MVP que tá só começando e ainda tem muitas funcionalidades novas para serem desenvolvidas.
+**Alfood** é uma aplicação front-end desenvolvida em React que lista restaurantes e seus respectivos pratos. O projeto foi criado durante o curso [**React: Integrando seu projeto React com APIs**](https://cursos.alura.com.br/course/react-integrando-projeto-react-apis) da **Alura**, com o objetivo de aplicar boas práticas no consumo de APIs, tipagem com TypeScript, e organização de componentes modernos com React Hooks.
 
 <img src="screencapture.png" alt="Imagem do Alfood" width="50%">
 
+---
 
-## 🔨 Funcionalidades do projeto
+## 🔨 Funcionalidades
 
-O Alfood começa com uma listagem estática de seu conteúdo e é esse o problema que queremos resolver.
-No decorrer do curso, vamos implementar toda a camada de comunicação com a API.
+- 📋 Listagem de restaurantes e pratos do menu.
+- 🔄 Integração com API externa via `axios`.
+- 🧠 Uso de `useState`, `useEffect` e outros React Hooks.
+- 💬 Formulários para cadastro e edição.
+- 🖼️ Upload de imagens.
+- 📦 Organização modular dos componentes.
+- 🧪 Projeto preparado para extensões futuras, como autenticação, filtro por categoria e painel administrativo.
 
-## ✔️ Técnicas e tecnologias utilizadas
+---
 
-Se liga nessa lista de tudo que usaremos nesse treinamento:
+## ✔️ Tecnologias e ferramentas utilizadas
 
 - `React`
-- `React Hooks`
 - `TypeScript`
 - `axios`
+- `React Router DOM`
+- `Material-UI` (se usado)
+- `Vite` ou `Create React App`
 
-## 🛠️ Abrir e rodar o projeto
+---
 
-Para abrir e rodar o projeto, execute npm i para instalar as dependências e npm start para inicar o projeto.
+## 🛠️ Como rodar o projeto
 
-Depois, acesse <a href="http://localhost:3000/">http://localhost:3000/</a> no seu navegador.
+1. Clone o repositório:
 
-## 📚 Mais informações do curso
-
-Busque na plataforma da Alura o curso **Integrando seu projeto React com APIs** publicado na Escola Frontend.
+```bash
+git clone https://github.com/seu-usuario/alfood.git
